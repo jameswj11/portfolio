@@ -55,6 +55,7 @@ div#wrapper {
 }
 
 h2 {
+  visibility: hidden;
   padding-top: 30px;
   padding-right: 120px;
   margin-left: 100px;
