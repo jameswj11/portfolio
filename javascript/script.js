@@ -8,6 +8,10 @@ $(function(){
   var img = new Image()
 
   img.onload = function(){
+
+    $('h2').css('visibility', 'visible')
+    $('h2').addClass('animated slideInRight')
+
     //variable for ending css animation
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 
