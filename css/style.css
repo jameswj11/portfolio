@@ -55,6 +55,13 @@ div#wrapper {
   opacity: 1;
 }
 
+img#portrait {
+  max-width: 100px;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 h2 {
   visibility: hidden;
   padding-top: 30px;
