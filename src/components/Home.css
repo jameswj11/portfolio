@@ -1,0 +1,62 @@
+p.bio {
+    color: #C0C0C0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img.portrait {
+    float: right;
+    height: 150px;
+    width: 150px;
+    border-radius: 7px;
+    margin-top: 16px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 7px;
+    max-width: 500px;
+    padding-bottom: 10px;
+    padding-top: 5px
+}
+
+.page-enter {
+    opacity: 0;
+    transform: scale(5.1);
+}
+  
+.page-enter-active {
+opacity: 1;
+transform: scale(5);
+transition: opacity 3000ms, transform 3000ms;
+}
+
+.page-exit {
+opacity: 1;
+transform: scale(5);
+}
+
+.page-exit-active {
+opacity: 0;
+transform: scale(4);
+transition: opacity 3000ms, transform 3000ms;
+}
+
+@media only screen and (max-width: 500px) {
+    img.portrait {
+        float: none;
+    }
+
+    .modal {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    p.bio {
+        text-align: left;
+    }
+}
