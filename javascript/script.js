@@ -1,5 +1,5 @@
 $(function(){
-
+  console.log('hey')
   //wait for background image to load. thanks to adeneo from stackoverflow http://stackoverflow.com/questions/22788782/wait-for-background-images-in-css-to-be-fully-loaded
 
   var src  = $('body').css('background-image');
